@@ -60,10 +60,6 @@ run_htable1:
 	diff -urN tests/tests/htable1_e.std tests/tests/htable1_e.out
 	
 clean:
-	-rm *.o tree1 tree2 htable1
-	-rm tests/*.out
-	-rm -rf dot/
-	-mkdir dot
-	-mkdir dot/hbtree/
-	-mkdir dot/tree2/
+	-rm *.o hw3/tree1 hw3/tree2 hw3/htable1
+	-rm tests/tests/*.out
 
