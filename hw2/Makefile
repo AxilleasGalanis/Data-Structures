@@ -129,4 +129,4 @@ run_tree2:
 	
 
 clean:
-	-rm *.o sort1 tree1 tree2 tests/*.out
+	-rm *.o hw2/sort1 hw2/tree1 hw2/tree2 tests/*.out
